@@ -1,6 +1,6 @@
 import { Page as PlaywrightPage } from '@playwright/test';
 
-export class Page {
+export default class Page {
     public readonly name : string = "Base Page";
     public readonly path : string = "/";
 
